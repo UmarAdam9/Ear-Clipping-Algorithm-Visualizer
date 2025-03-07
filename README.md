@@ -2,7 +2,8 @@
 Ear-Clipping visualizer written in JavaScript
 
 
-![image](https://github.com/user-attachments/assets/2387d689-8389-465f-aa9f-131d37aa4d6a)
+![image](https://github.com/user-attachments/assets/1422c132-70ea-49b4-b9cb-b23fe87b65bb)
+
 
 
 
