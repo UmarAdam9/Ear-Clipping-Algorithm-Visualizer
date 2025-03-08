@@ -39,7 +39,7 @@ function make_checkerboard()
  function vec_sub(a,b){ return new Vec2d(a.x-b.x , a.y-b.y); }
  function vec_dotproduct(a,b){ return (a.x*b.x + a.y*b.y); }
 //function vec_crossproduct(a,b){} //get this right this time!!
- function vec_crossproduct( a, b){ //Clockwise rotations now give positive cross products and Counterclockwise rotations give negative cross products (use right hand rule but the direction is opposite to the direction of thumbs)
+ function vec_crossproduct( a, b){ //Clockwise rotations now give positive cross products and Counterclockwise rotations give negative cross products (use right hand rule but the direction is opposite to the direction of thumb)
 
     let c= new Vec2d(0,0);
         
