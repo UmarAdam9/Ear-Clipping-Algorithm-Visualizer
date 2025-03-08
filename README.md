@@ -2,7 +2,8 @@
 Ear-Clipping polygon triangulation visualizer written in JavaScript
 
 
-![image](https://github.com/user-attachments/assets/1422c132-70ea-49b4-b9cb-b23fe87b65bb)
+![image](https://github.com/user-attachments/assets/398b27cb-bb60-4fba-97bd-9ca1d09efcaa)
+
 
 
 
