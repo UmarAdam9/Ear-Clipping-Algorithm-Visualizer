@@ -11,7 +11,7 @@ Left clicking on the screen creates a vertex.
 
 Press enter after placing the vertices to fill the polygon with triangles.
 
-##### Important Notes #########
+============# Important Notes #==================
 
 The shapes you create must have an anticlockwise winding order otherwise the algorithm will not work properly.
 
