@@ -1,5 +1,5 @@
-# Ear-Clipping-Algorithm-Visualizer
-Ear-Clipping visualizer written in JavaScript
+# Polygon-Triangulation-Algorithm-Visualizer
+Ear-Clipping polygon triangulation visualizer written in JavaScript
 
 
 ![image](https://github.com/user-attachments/assets/1422c132-70ea-49b4-b9cb-b23fe87b65bb)
