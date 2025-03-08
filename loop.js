@@ -5,8 +5,8 @@ const msPerFrame = 1000 / fps;
 
 
 
-
-
+let mouseClicks = 0;
+const textElement = document.getElementById("text");
 
 let arr = []; //push points here
 let shape =[]; //to check point checker shape
@@ -22,6 +22,9 @@ document.addEventListener("click", function(e){
     
     let point = new Vec2d(x,y);
     arr.push(point);
+    mouseClicks++;
+    textElement.textContent = "Vertices: " + mouseClicks; 
+    
     
 })
 
@@ -180,11 +183,7 @@ function Loop(){
                 }
             
         }
-        
-        for (let i = 0; i < arr.length; i++){
-            
-            FillCircle(arr[i], 5, "red")
-        }
+      
 
 
         if(tri_arr){
@@ -194,7 +193,14 @@ function Loop(){
             }
         }
 
+          
+        for (let i = 0; i < arr.length; i++){
+            
+            FillCircle(arr[i], 5, "red")
+        }
+
         FillCircle(mouse_point,5, shape.length ? pointChecker_shape(mouse_point,shape) ? "red":"black"  :"black"); //to check pointchecker shape
+
 
      
     }
